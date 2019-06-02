@@ -1,6 +1,6 @@
 # Laravel-Vue-AdminLTE Boiler-plate
 
-A boiler-plate for Laravel 5.7 - Vue - AdminLTE
+A boiler-plate for Laravel ^5.7 - Vue - AdminLTE with no configuration required.
 
 ## Getting Started
 
@@ -22,7 +22,9 @@ npm install
 
 ### Next steps:
   
-* Rename .env.example to .env and provide your database details.  
+* Rename .env.example to .env and provide your database details.
+
+* Customize your sidebar menu in /resources/views/partials/sidebar.blade.php
 
 * Register
 
