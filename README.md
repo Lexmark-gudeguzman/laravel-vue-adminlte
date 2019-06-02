@@ -32,8 +32,8 @@ npm install
 
 * /home
 
-* /dashboardv1
+* /dashboard-v1
 
-* /dashboardv2
+* /dashboard-v2
 
 AdminLTE Template: https://adminlte.io/
