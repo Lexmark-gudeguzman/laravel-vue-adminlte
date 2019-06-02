@@ -1,5 +1,5 @@
-# laravel-admin-dashboard
-AdminLTE - Laravel Admin Dashboard - Laravel 5.7
+# laravel-vue-admin-dashboard
+AdminLTE - Vue - Laravel 5.7 Admin Dashboard
 
 Prerequisites
 After cloning the repository, go to the root folder and run the following command/s, 
@@ -7,6 +7,8 @@ After cloning the repository, go to the root folder and run the following comman
 • composer install
 
 • composer update
+
+• npm install
 
 Next steps:
   
