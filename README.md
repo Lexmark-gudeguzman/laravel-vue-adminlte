@@ -20,9 +20,13 @@ composer update
 npm install
 ```
 
+```
+php artisan key:generate
+```
+
 ### Next steps:
-  
-* Rename .env.example to .env and provide your database details.
+
+* Rename .env.example to .env and provide your database details and key.
 
 * Customize your sidebar menu in /resources/views/partials/sidebar.blade.php
 
