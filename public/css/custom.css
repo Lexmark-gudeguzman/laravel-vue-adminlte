@@ -1,0 +1,130 @@
+.no-underline {
+    text-decoration: none !important;
+}
+
+.invalid-feedback {
+    color: #cccccc;
+}
+
+.btn-primary, .btn-primary:focus, .btn-primary:active {
+    color: #fff;
+    background-color: #3490dc;
+    border-color: #3490dc;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #3189d1;
+    border-color: #3189d1;
+}
+
+.alert-info {
+    color: #31708f !important;
+    background-color: #d9edf7 !important;
+    border-color: #bce8f1 !important;
+}
+
+.form-row {
+    margin-top: 10px !important;
+    width: 100%;
+}
+
+.formula {
+    font-weight: 300;
+}
+
+/* Modals */
+.modal-mask {
+    position: fixed;
+    z-index: 9998;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    display: table;
+    transition: opacity .3s ease;
+}
+
+.modal-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.modal-container {
+    width: 34%;
+    margin: 0px auto;
+    padding: 20px 40px;
+    background-color: #fff;
+    border-top: 4px solid #00ad21;
+    /* border-radius: 2px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .33); */
+    transition: all .3s ease;
+}
+
+.modal-header {
+    text-align: center;
+}
+
+.modal-footer {
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-header, .modal-footer {
+    border: 0;
+}
+
+.modal-body {
+    margin: 15px 0;
+    text-align: center;
+}
+
+.modal-default-button {
+    float: none;
+}
+
+/*
+* The following styles are auto-applied to elements with
+* transition="modal" when their visibility is toggled
+* by Vue.js.
+*
+* You can easily play with the modal transition by editing
+* these styles.
+*/
+
+.modal-enter {
+    opacity: 0;
+}
+
+.modal-leave-active {
+    opacity: 0;
+}
+
+.modal-enter .modal-container,
+.modal-leave-active .modal-container {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+img.signature {
+    height: 124px !important;
+}
+
+input[type=search].form-control {
+    width: 100% !important
+}
+
+@media (max-width: 575.98px) {
+    img.signature {
+        height: 124px !important;
+    }
+
+    .modal-container {
+        width: 80%;
+    }
+}
