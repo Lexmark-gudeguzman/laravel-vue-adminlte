@@ -43,3 +43,5 @@ php artisan key:generate
 * /dashboard-v2
 
 AdminLTE Template: https://adminlte.io/
+
+Hopefully, this should help you get started with Laravel and VueJS using AdminLTE dashboard. Shoot me some email at dev[at]deployableapps[dot]com or buy me beer!
