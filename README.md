@@ -1,5 +1,5 @@
-# laravel-vue-admin-dashboard
-AdminLTE - Vue - Laravel 5.7 Admin Dashboard
+# laravel-vue-adminlte-dashboard
+A boiler-plate for AdminLTE - Vue - Laravel 5.7
 
 Prerequisites
 After cloning the repository, go to the root folder and run the following command/s, 
