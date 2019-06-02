@@ -28,7 +28,7 @@ npm install
 
 * Login
 
-### Sample Components
+### Sample Routes
 
 * /home
 
